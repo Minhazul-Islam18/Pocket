@@ -1,0 +1,30 @@
+{
+    "name": "vendor/pocket",
+    "description": "Pocket-A PHP framework",
+    "type": "project",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.28"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Vendor\\Pocket\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Minhazul-Islam18",
+            "email": "minhaz019166@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
